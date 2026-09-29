@@ -116,4 +116,9 @@ program
     console.log("\x1b[1m----------------------\x1b[0m");
   });
 
-program.parse(process.argv);
+if (import.meta.main) {
+  if (import.meta.main) {
+  program.parse(process.argv);
+}
+}
+
